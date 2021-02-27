@@ -1,0 +1,30 @@
+div {
+  width: 100%;
+  height: 30vh;
+  background: #f1f1f1f1;
+  position: relative;
+}
+
+div > h1 {
+  position: absolute;
+  right: 10%;
+  top: 40%;
+  transform: translate(50%, -50%);
+  width: 20%;
+  height: 20%;
+  font-size: 30px;
+}
+
+div p {
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+}
+
+/*
+top
+bottom
+left
+right
+
+*/
