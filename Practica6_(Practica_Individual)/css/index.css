@@ -157,16 +157,26 @@ img {
   text-align: center;
 }
 
+.section1 div {
+  width: 27vh;
+  height: 27vh;
+  background-color: #ba0099;
+  border-radius: 50%;
+  border: white 6px solid;
+  margin-left: 10%;
+}
+
 .section1 h2 {
-  width: 25vh;
+  /* width: 25vh;
   height: 25vh;
   background-color: #ba0099;
   border-radius: 50%;
+  border: white 6px solid; */
   font-size: 40px;
   display: flex;
   justify-content: center;
   position: relative;
-  left: 30px;
+  top: 20px;
 }
 
 .section1 h3 {
@@ -180,8 +190,6 @@ img {
   text-align: center;
   display: flex;
   justify-content: center;
-  position: relative;
-  top: -20px;
 }
 
 /*SECCION 2*/
@@ -196,23 +204,32 @@ img {
   font-size: 25px;
 }
 
+.section2 div {
+  width: 25vh;
+  height: 30vh;
+  border-radius: 50%;
+  border: #a3d200 6px solid;
+  position: relative;
+  left: 35px;
+  top: 10px;
+}
 .section2 h3 {
   font-size: 30px;
   position: relative;
-  bottom: -30px;
+  bottom: -40px;
 }
 
 .section2 h5 {
-  font-size: 15px;
+  font-size: 12px;
   position: relative;
-  bottom: -30px;
+  bottom: -40px;
 }
 
 .section2 p {
   font-size: 10px;
   display: flex;
   position: relative;
-  bottom: -65px;
+  bottom: -10px;
 }
 
 /*SECCION 3*/
