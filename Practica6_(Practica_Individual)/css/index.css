@@ -109,8 +109,8 @@ nav p {
   justify-content: space-between;
 }
 .hijo {
-  height: 90%;
-  width: 20vw;
+  height: 94%;
+  width: 24vw;
   display: flex;
   flex-direction: column;
   color: black;
@@ -158,12 +158,12 @@ img {
 }
 
 .section1 div {
-  width: 27vh;
-  height: 27vh;
+  width: 26vh;
+  height: 26vh;
   background-color: #ba0099;
   border-radius: 50%;
   border: white 6px solid;
-  margin-left: 10%;
+  margin-left: 17%;
 }
 
 .section1 h2 {
@@ -206,12 +206,12 @@ img {
 
 .section2 div {
   width: 25vh;
-  height: 30vh;
+  height: 25vh;
   border-radius: 50%;
   border: #a3d200 6px solid;
   position: relative;
-  left: 35px;
-  top: 10px;
+  left: 50px;
+  top: 5px;
 }
 .section2 h3 {
   font-size: 30px;
@@ -265,6 +265,6 @@ img {
 }
 
 .section4 p {
-  font-size: 10px;
+  font-size: 12px;
   margin: 5px;
 }
