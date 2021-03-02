@@ -71,7 +71,7 @@ nav p {
   width: auto;
   height: 35vh;
   background-image: url(../assets/banner.jpg);
-  /* border: 2px solid red; */
+  border: white 2px solid;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -267,4 +267,8 @@ img {
 .section4 p {
   font-size: 12px;
   margin: 5px;
+}
+
+.green {
+  color: #a3d200;
 }
