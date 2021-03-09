@@ -23,26 +23,32 @@ body {
   0% {
     top: 0;
     left: 0;
+    background-color: cyan;
   }
   20% {
     top: 93%;
     left: 20%;
+    background-color: green;
   }
   40% {
     top: 0%;
     left: 40%;
+    background-color: blue;
   }
   60% {
     top: 93%;
     left: 60%;
+    background-color: red;
   }
   80% {
     top: 0%;
     left: 80%;
+    background-color: orange;
   }
   100% {
     top: 93%;
     left: 96%;
+    background-color: black;
   }
 }
 
