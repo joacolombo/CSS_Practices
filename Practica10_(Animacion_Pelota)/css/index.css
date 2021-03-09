@@ -7,7 +7,7 @@ body {
   width: 50vw;
   height: 50vh;
   border: black 2px solid;
-  animation: animate2 5s infinite alternate-reverse;
+  animation: animate2 5s infinite linear alternate-reverse;
 }
 
 .pelota {
@@ -16,7 +16,7 @@ body {
   border-radius: 50%;
   border: black 2px solid;
   position: relative;
-  animation: animate1 5s infinite alternate-reverse;
+  animation: animate1 5s infinite linear alternate-reverse;
 }
 
 @keyframes animate1 {
