@@ -58,6 +58,7 @@ ul li a::before {
 
 ul li a:hover::before {
   content: "";
+  background: greenyellow;
   transform: scaleX(1);
   transform-origin: left;
   transition: 0.5s;
