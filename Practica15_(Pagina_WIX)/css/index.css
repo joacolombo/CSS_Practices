@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100vw;
+  height: 15vh;
+  background: black;
+  position: fixed;
+}
+
+nav > h1 {
+  display: block;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  color: white;
+  text-align: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  padding-top: 50px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#inicio {
+  width: 100vw;
+  height: 200vh;
+  background: orange;
+}
+
+#servicios {
+  width: 100vw;
+  height: 100vh;
+  background-color: blue;
+}
+
+#nosotros {
+  width: 100vw;
+  height: 100vh;
+  background-color: chartreuse;
+}
+
+#proyectos {
+  width: 100vw;
+  height: 100vh;
+  background-color: cyan;
+}
+
+#contacto {
+  width: 100vw;
+  height: 100vh;
+  background-color: darkorchid;
+}
