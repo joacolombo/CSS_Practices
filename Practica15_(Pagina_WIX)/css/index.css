@@ -79,15 +79,17 @@ div h2 {
   padding-bottom: 80px;
 }
 
-.serv {
+.contenido1 {
+  width: 100vw;
+  height: 90vh;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .box {
   width: 300px;
-  height: 420px;
+  height: auto;
   margin: 10px;
   background: #f7f7f7;
   display: flex;
@@ -102,13 +104,48 @@ div h2 {
 
 .box p {
   padding: 10px;
-  font-size: 15px;
+  font-size: 17px;
+  line-height: 30px;
 }
 
 #nosotros {
   width: 100%;
-  height: auto;
-  background-color: chartreuse;
+  height: 100%;
+  background-color: white;
+  color: #1d2d3c;
+  display: flex;
+  flex-direction: row;
+  padding-top: 15vh;
+}
+
+.contenido2 {
+  background-color: #f7f7f7;
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.contenido2 h2 {
+  padding: 18px;
+  font-size: 60px;
+}
+
+.contenido2 p {
+  padding-top: 50px;
+  padding-left: 90px;
+  padding-right: 60px;
+  font-size: 17px;
+  line-height: 30px;
+}
+
+.imagen2 img {
+  width: 50vw;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 #proyectos {
