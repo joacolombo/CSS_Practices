@@ -4,7 +4,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-family: Helvetica;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 nav {
@@ -15,6 +15,7 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  z-index: 1;
 }
 
 nav img {
@@ -55,7 +56,6 @@ nav ul {
 }
 
 nav a h1 span:nth-child(1) {
-  /* color: green; */
   font-weight: bolder;
 }
 
@@ -78,18 +78,29 @@ nav ul li a:hover {
   color: #edcd20;
 }
 
-video {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
-
 #inicio {
   width: 100%;
   height: auto;
+}
+
+#inicio video {
+  position: relative;
+  top: -17vh;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: fixed;
+  z-index: -1;
+}
+
+#inicio p {
+  position: relative;
+  top: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  font-size: 60px;
 }
 
 #servicios {
@@ -127,6 +138,10 @@ div h2 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+.box img {
+  position: relative;
+  top: -8px;
 }
 
 .box h3 {
@@ -204,9 +219,40 @@ div h2 {
 }
 
 #proyectos {
-  width: 100%;
-  height: 100vh;
-  background-color: cyan;
+  width: 100vw;
+  height: auto;
+  background-color: white;
+  color: #1d2d3c;
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  font-size: 40px;
+}
+
+.container {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container > .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container a img {
+  display: block;
+  width: 290px;
+  height: 320px;
+  margin: 8px;
+}
+
+.row img:hover {
+  opacity: 0.5;
+  transition: 0.5s;
 }
 
 #contacto {
