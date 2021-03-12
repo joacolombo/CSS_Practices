@@ -3,7 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  font-family: sans-serif;
+  font-family: Helvetica;
+  overflow-x: hidden;
 }
 
 nav {
@@ -12,63 +13,93 @@ nav {
   background: #1d2d3c;
   position: fixed;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-around;
 }
 
+nav img {
+  width: 60px;
+  height: 60px;
+}
+
 nav ul {
+  width: 75vw;
+  height: 15vh;
   list-style: none;
   text-align: none;
   display: flex;
   justify-content: flex-end;
-  padding-bottom: 10px;
+  align-items: flex-end;
+  padding-bottom: 30px;
+  background: #1d2d3c;
+  padding-right: 20px;
 }
 
-nav > a {
-  text-decoration: none;
-}
-
-nav > a h1 {
-  color: #1d2d3c;
+.logo {
   background-color: #edcd20;
-  display: inline;
+  width: 25vw;
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.logo a {
+  text-decoration: none;
+  color: #1d2d3c;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+
+nav a h1 span:nth-child(1) {
+  /* color: green; */
+  font-weight: bolder;
+}
+
+nav a h1 span:nth-child(2) {
+  font-weight: lighter;
 }
 
 nav ul li {
   padding: 0px 30px;
+  display: flex;
 }
 
 nav ul li a {
   color: white;
   text-decoration: none;
+  font-size: 13px;
 }
 
 nav ul li a:hover {
-  color: yellow;
+  color: #edcd20;
 }
 
-/* video {
+video {
   object-fit: cover;
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
-  z-index: -1;
-} */
+  z-index: 1;
+}
 
 #inicio {
   width: 100%;
-  height: 100vh;
+  height: auto;
 }
 
 #servicios {
-  width: 100%;
+  width: 100vw;
   height: auto;
   background-color: white;
   color: #1d2d3c;
   display: flex;
   flex-direction: column;
-  padding-top: 150px;
+  padding-top: 100px;
   font-size: 40px;
 }
 
@@ -92,6 +123,7 @@ div h2 {
   height: auto;
   margin: 10px;
   background: #f7f7f7;
+  color: #3e5a76;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -140,22 +172,45 @@ div h2 {
   line-height: 30px;
 }
 
-.imagen2 img {
+.imagen2 {
   width: 50vw;
-  height: 100%;
+  height: 100vh;
+  background: url("/assets/obra.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  background-attachment: fixed;
+}
+
+.numeros {
+  background: #edcd20;
+  color: #3e5a76;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 30px;
+}
+
+.numeros h3 {
+  font-size: 60px;
+  padding: 0px 50px;
+}
+
+.numeros p {
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #proyectos {
   width: 100%;
-  height: auto;
+  height: 100vh;
   background-color: cyan;
 }
 
 #contacto {
   width: 100%;
-  height: auto;
+  height: 100vh;
   background-color: darkorchid;
 }
