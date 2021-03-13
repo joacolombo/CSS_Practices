@@ -190,6 +190,7 @@ div h2 {
   padding-right: 60px;
   font-size: 17px;
   line-height: 30px;
+  color: #23323f;
 }
 
 .imagen2 {
@@ -285,11 +286,8 @@ div h2 {
 
 #contacto {
   width: 100%;
-  height: 100vh;
+  height: auto;
   color: #1d2d3c;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center; */
   font-size: 40px;
   padding-top: 15vh;
   display: flex;
@@ -300,6 +298,7 @@ div h2 {
 #contacto h2 {
   padding-bottom: 40px;
   display: flex;
+  flex-direction: row;
   justify-content: center;
 }
 
@@ -308,4 +307,75 @@ div h2 {
   height: 100%;
   display: flex;
   justify-content: center;
+}
+
+#contacto h3 {
+  width: 420px;
+  height: 30px;
+  color: #23323f;
+  font-size: 22px;
+}
+
+#contacto p {
+  width: 420px;
+  height: auto;
+  line-height: 26px;
+  color: #23323f;
+  font-size: 17px;
+}
+
+#contacto .formulario {
+  width: 360px;
+  height: auto;
+  font-size: 17px;
+}
+
+#contacto .formCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 6px;
+}
+
+#contacto .formCont label {
+  font-style: italic;
+  font-size: 14px;
+  margin-top: 2px;
+}
+
+#contacto .formCont input {
+  background: #f7f7f7;
+  font-size: 14px;
+  border: 1px solid;
+  margin-top: 2px;
+  align-items: baseline;
+}
+
+#contacto .formCont input:hover {
+  border: 2px solid;
+  transition: 0.01s;
+}
+
+#contacto .mensaje {
+  height: 80px;
+}
+
+.boton {
+  display: flex;
+  justify-content: end;
+  color: #edcd20;
+  background-color: #3b3a3a;
+  text-decoration: none;
+  padding: 2px 20px;
+  border: #3b3a3a 2px solid;
+  position: relative;
+  left: 278px;
+  margin-top: 5px;
+}
+
+.boton:hover {
+  color: #3b3b3b;
+  background-color: #edcd20;
+  border: #edcd20 2px solid;
+  cursor: pointer;
 }
