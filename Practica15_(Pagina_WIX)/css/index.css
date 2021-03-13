@@ -309,25 +309,63 @@ div h2 {
   justify-content: center;
 }
 
+.informacion {
+  width: 100vw;
+  height: auto;
+  display: flex;
+}
+
 #contacto h3 {
-  width: 420px;
+  width: 400px;
   height: 30px;
   color: #23323f;
   font-size: 22px;
+  padding-left: 70px;
 }
 
 #contacto p {
-  width: 420px;
+  width: 400px;
   height: auto;
   line-height: 26px;
   color: #23323f;
   font-size: 17px;
+  padding-left: 70px;
 }
 
 #contacto .formulario {
-  width: 360px;
+  width: 500px;
   height: auto;
   font-size: 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 70px;
+  padding-top: 30px;
+}
+
+.col1 {
+  width: 50vw;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.col2 {
+  width: 50vw;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.col2 h3 {
+  padding-top: 5px;
+  line-height: 20px;
+}
+
+.col2 p {
+  padding: 2px;
 }
 
 #contacto .formCont {
@@ -369,7 +407,7 @@ div h2 {
   padding: 2px 20px;
   border: #3b3a3a 2px solid;
   position: relative;
-  left: 278px;
+  left: 350px;
   margin-top: 5px;
 }
 
@@ -378,4 +416,15 @@ div h2 {
   background-color: #edcd20;
   border: #edcd20 2px solid;
   cursor: pointer;
+}
+
+footer {
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  right: 50px;
 }
